@@ -1,0 +1,321 @@
+.zone {
+    /*padding:30px 50px;
+    margin:40px 60px;*/
+    cursor:pointer;
+/*    display:inline-block;*/
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+/*    border:1px solid #bbb;*/
+    transition: all 0.3s linear;
+}
+
+/*.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}*/
+
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+/***********************************************************************
+ *  Green Background
+ **********************************************************************/
+.green{
+    background: #FFFFFF; /* Old browsers */
+    background: -moz-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#FFFFFF)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #FFFFFF 0%,#FFFFFF 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #FFFFFF 0%,#FFFFFF 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #FFFFFF 0%,#FFFFFF 100%); /* IE10+ */
+    background: linear-gradient(top, #FFFFFF 0%,#FFFFFF 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Red Background
+ **********************************************************************/
+.red{
+    background: #D9C6C6; /* Old browsers */
+    background: -moz-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#FFFFFF)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #FFFFFF 0%,#FFFFFF 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #D9C6C6 0%,#FFFFFF 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #D9C6C6 0%,#FFFFFF 100%); /* IE10+ */
+    background: linear-gradient(top, #D9C6C6 0%,#FFFFFF 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Yellow Background
+ **********************************************************************/
+.yellow{
+    background: #F7F4F4; /* Old browsers */
+    background: -moz-linear-gradient(top, #F7F4F4 0%, #F7F4F4 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F7F4F4), color-stop(100%,#F7F4F4)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #F7F4F4 0%,#F7F4F4 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #F7F4F4 0%,#F7F4F4 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #F7F4F4 0%,#F7F4F4 100%); /* IE10+ */
+    background: linear-gradient(top, #F7F4F4 0%,#F7F4F4 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Blue Background
+ **********************************************************************/
+.blue{
+    background: #D9C6C6; /* Old browsers */
+    background: -moz-linear-gradient(top, #D9C6C6 0%, #D9C6C6 44%, #D9C6C6 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EFB9B9), color-stop(44%,#EFB9B9), color-stop(100%,#EFB9B9)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #EFB9B9 0%,#EFB9B9 44%,#EFB9B9 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #D9C6C6 0%,#D9C6C6 44%,#D9C6C6 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #D9C6C6 0%,#D9C6C6 44%,#D9C6C6 100%); /* IE10+ */
+    background: linear-gradient(top, #D9C6C6 0%,#D9C6C6 44%,#D9C6C6 100%); /* W3C */
+}
+
+.main-nav{
+    display: flex;
+    list-style: none;
+    font-size: 0.7em;
+    justify-content: flex-end;
+    margin-right: 5.5em;
+    font-family: verdana;
+    font-weight: medium;
+
+}
+
+/*@media only screen and (max-width: 800px){
+    .main-nav{
+        font-size: 0.5em;
+        padding: 0;
+    }
+}*/
+
+li{
+    padding: 20px;
+
+}
+
+a{
+/*    color: #3E3737;*/
+    color: #E76C6C;
+    text-decoration: none;
+}
+
+body{
+    margin: auto 0;
+
+}
+
+/*.push{
+    margin-left: auto;
+
+} */
+
+.left{
+    margin-right: auto;
+    margin-left: 4.3em;
+/*    color: #3E3737;*/
+    color: #E76C6C;
+
+}
+
+/*.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}*/
+
+.grid-wrapper{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(60vw,1fr));
+    
+}
+
+.box>img{
+    width: 100%;
+    height: 100%;
+}
+
+.box{
+    background-color: transparent;
+    padding: 10px;
+    margin: 10px;
+}
+
+.footer{
+    text-align: center;
+    border:1px solid #bbb;
+}
+
+/*.nav-right{
+    float: right;
+    font-size: 0.7em;
+    display: flex;
+}*/
+
+.container{
+/*    height: 50vh;*/
+/*    color: #3E3737;*/
+/*    color: #E76C6C;*/
+
+}
+
+.content{
+    font-size: 0.8em;
+/*    margin-top: 15vh;*/
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    color: black;
+    padding-top: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 1em;
+    font-family: garamond;
+}
+
+@media only screen and (max-width: 800px){
+    .content{
+        font-size: 0.4em;
+    
+    }
+}
+
+.big{
+    padding: 0.5em;
+    font-size: 0.8em;
+    color: black;
+    font-weight: bold;
+}
+
+.small{
+
+    font-size: 0.7em;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.5em;
+    gap: 0.2em;
+
+}
+
+.smaller{
+    padding-top: 0.8em;
+    padding-bottom: 0.5em;
+    font-size: 0.5em;
+    color: #444;
+}
+
+.down{
+    list-style: none;
+    line-height: 0.2vh;
+    font-family: garamond;
+}
+
+.within{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/*.small>img{
+    padding=top: 3vh;
+    padding-right: 0.3em;
+}*/
+
+/************For the about page*************/
+
+.skills{
+    line-height: 0.2vh;
+    font-family: times new roman;
+    color: black;
+    /*padding-top: 1em;
+    padding-bottom: 1em;*/
+    list-style: circle;
+    font-size: 0.8em;
+}
+
+.skill{
+    font-family: times new roman;
+    margin-left: 8em;
+    margin-right: 8em;
+    color: black;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+/*    font-size: 0.8em;*/
+
+}
+.head{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.aboutcontent{
+    font-size: 0.8em;
+/*    margin-top: 15vh;*/
+    margin-left: 8em;
+    margin-right: 8em;
+    color: black;
+    padding-top: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 1em;
+    font-family: times new roman;
+}
+
+.aboutwithin{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: justify;
+}
+
+.nexthead{
+    font-size: 1em;
+    font-weight: bold;
+    font-family: times new roman;
+    color: black;
+    padding-bottom: 1em;
+    padding-top: 1em;
+
+}
+
+.resume{
+    margin-left: 8em;
+    margin-right: 8em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+
+}
+
+@media only screen and (max-width: 1000px){
+    .aboutcontent{
+        font-size: 0.4em;
+    
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .skill{
+        font-size: 0.4em;
+    
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .resume{
+        font-size: 0.4em;
+
+    
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .main-nav{
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
